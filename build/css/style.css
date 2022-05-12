@@ -1094,6 +1094,13 @@ img {
             flex-direction: column;
     margin-bottom: 0;
   }
+  .advantage_list {
+    width: 100%;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
   .advantage_description:first-child {
     margin-bottom: 0;
   }
@@ -1169,6 +1176,7 @@ img {
             align-items: center;
     -ms-flex-wrap: nowrap;
         flex-wrap: nowrap;
+    width: 100%;
   }
   .advantage_description {
     margin-bottom: 40px;
